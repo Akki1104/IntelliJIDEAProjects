@@ -1,10 +1,6 @@
-enum size{
-    SMALL, MEDIUM, LARGE, EXTRALARGE
-}
-
 public class Test{
-    size pizzaSize;
-    public Test(size pizzaSize){
+    Size pizzaSize;
+    public Test(Size pizzaSize){
         this.pizzaSize = pizzaSize;
     }
     public void orderPizza(){
@@ -17,7 +13,7 @@ public class Test{
         }
     }
     public static void main(String[] args) {
-        Test t1 = new Test(size.LARGE);
+        Test t1 = new Test(Size.LARGE);
         t1.orderPizza();
     }
 }
