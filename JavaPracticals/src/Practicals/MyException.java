@@ -11,7 +11,7 @@ public class MyException extends Exception {
     }
     public static void main(String[] args) {
         try{
-            System.out.println("Account Number \tCustomer \tBalance");
+            System.out.println("Account Number\t\tCustomer \tBalance");
             for(int i=0; i < 5; i++){
                 System.out.println(accNo[i]+"\t\t\t"+name[i]+"\t\t"+bal[i]);
                 if(bal[i] < 1000){
