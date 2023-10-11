@@ -1,3 +1,5 @@
+package Practicals;
+
 public class Test{
     Size pizzaSize;
     public Test(Size pizzaSize){
