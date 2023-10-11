@@ -1,7 +1,9 @@
+package Practicals;
+
 import java.util.*;
 enum enumSize{
     SMALL("The Pizza size is small."),
-    MEDIUM("The Pizza Size is medium."),
+    MEDIUM("The Pizza Practicals.Size is medium."),
     LARGE("The Pizza size is large."),
     EXTRALARGE("This Pizza size is extralarge.");
 

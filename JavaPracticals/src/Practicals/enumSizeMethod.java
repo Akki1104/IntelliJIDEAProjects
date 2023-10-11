@@ -1,3 +1,5 @@
+package Practicals;
+
 enum SizeMethod {
     SMALL, MEDIUM, LARGE, EXTRALARGE;
 
