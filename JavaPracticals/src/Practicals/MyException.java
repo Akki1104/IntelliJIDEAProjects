@@ -1,4 +1,8 @@
 package Practicals;
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/master
 public class MyException extends Exception {
     static int[] accNo={1001,1002,1003,1004,1005};
     static String[] name={"Rohit","Vivek","Vishnu","Sunil","Akash"};
@@ -10,7 +14,11 @@ public class MyException extends Exception {
     }
     public static void main(String[] args) {
         try{
+<<<<<<< HEAD
             System.out.println("Account Number \tCustomer \tBalance");
+=======
+            System.out.println("Account Number\t\tCustomer \tBalance");
+>>>>>>> origin/master
             for(int i=0; i < 5; i++){
                 System.out.println(accNo[i]+"\t\t\t"+name[i]+"\t\t"+bal[i]);
                 if(bal[i] < 1000){
